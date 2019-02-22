@@ -20,6 +20,21 @@ git remote add origin git@github.com:UncleBen420/Labo01GEN.git
 on push le readme
 git push -u origin master
 
-creation d'unclone avec ssh
+creation d'un clone avec ssh
 git clone ssh://git@github.com/UncleBen420/Labo01GEN.git
-rgds
+
+creation d'un branch et switch dessus:
+git checkout -b essai1
+
+trouver les fichier modifier:
+git status
+
+creation d'un commit :
+git commit -m "readme modified"
+
+ajout des modification
+git add README.md
+
+push des modifications
+git push -u origin essai1
+aaa
