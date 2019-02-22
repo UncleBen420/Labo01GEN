@@ -37,4 +37,19 @@ git add README.md
 
 push des modifications
 git push -u origin essai1
-aaa
+
+
+
+On avance d'un commit dans essai1
+
+trouver les fichier modifier:
+git status
+
+creation d'un commit :
+git commit -m "readme modified"
+
+ajout des modification
+git add README.md
+
+push des modifications
+git push -u origin essai1
